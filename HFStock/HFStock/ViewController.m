@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "HFRequstConfig.h"
 @interface ViewController ()
 
 @end
@@ -18,6 +18,8 @@
 
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+//    [self.view addSubview:[UIView appearance]];
+
 }
 
 - (void)didReceiveMemoryWarning {

@@ -30,13 +30,11 @@ PODS:
   - YYKit (1.0.7):
     - YYKit/no-arc (= 1.0.7)
   - YYKit/no-arc (1.0.7)
-  - YYModel (1.0.4)
 
 DEPENDENCIES:
   - AFNetworking
   - HFLibs (from `https://github.com/helfyz/HFLibs.git`, commit `55fe26a`)
   - YYKit
-  - YYModel
 
 EXTERNAL SOURCES:
   HFLibs:
@@ -54,6 +52,5 @@ SPEC CHECKSUMS:
   Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
   UITableView+FDTemplateLayoutCell: 234e1582bcc4e18461af91155123bb96538ed030
   YYKit: 843d1b26e20b82c695790c9a89907eaa1e99907f
-  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
 COCOAPODS: 0.39.0

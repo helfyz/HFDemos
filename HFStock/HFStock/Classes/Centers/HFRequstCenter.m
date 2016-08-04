@@ -26,8 +26,8 @@
     self = [super init];
     if(self) {
         
-        NSDictionary *defaultParameters = ((HFReustConfig *)[[self class] appearance]).parameters;
-        _parameters = defaultParameters ? defaultParameters : [NSMutableDictionary dictionary];
+        NSDictionary *defaultParameters = ((HFReustConfig *)[[self class] appearance]).defaultParameters;
+        _defaultParameters = defaultParameters ? defaultParameters : [NSMutableDictionary dictionary];
         
         NSDictionary *defaultSerializer = ((HFReustConfig *)[[self class] appearance]).serializer;
         _serializer = defaultSerializer ? defaultSerializer : [NSMutableDictionary dictionary];
@@ -68,29 +68,29 @@
     
     switch (requst.requstMethod) {
         case HFRequstMethodGET: {
-           requst.task = [manager GET:requst.url parameters:requst.parameters progress:requst.progress success:requst.success failure:requst.failure];
+           [manager GET:requst.url parameters:requst.parameters progress:requst.progress success:requst.success failure:requst.failure];
             break;
         }
         case HFRequstMethodPOST: {
-            requst.task =  [manager POST:requst.url parameters:requst.parameters progress:requst.progress success:requst.success failure:requst.failure];
+             [manager POST:requst.url parameters:requst.parameters progress:requst.progress success:requst.success failure:requst.failure];
             break;
         }
         case HFRequstMethodPUT: {
-            requst.task = [manager PUT:requst.url parameters:requst.parameters success:requst.success failure:requst.failure];
+             [manager PUT:requst.url parameters:requst.parameters success:requst.success failure:requst.failure];
             break;
         }
         case HFRequstMethodHEAD: {
-            requst.task =  [manager HEAD:requst.url parameters:requst.parameters success:^(NSURLSessionDataTask * _Nonnull task) {
+             [manager HEAD:requst.url parameters:requst.parameters success:^(NSURLSessionDataTask * _Nonnull task) {
                  !requst.success?:requst.success(task,nil);
              } failure:requst.failure];
             break;
         }
         case HFRequstMethodPATCH: {
-            requst.task = [manager PATCH:requst.url parameters:requst.parameters success:requst.success failure:requst.failure];
+           [manager PATCH:requst.url parameters:requst.parameters success:requst.success failure:requst.failure];
             break;
         }
         case HFRequstMethodDELETE: {
-             requst.task = [manager DELETE:requst.url parameters:requst.parameters success:requst.success failure:requst.failure];
+            [manager DELETE:requst.url parameters:requst.parameters success:requst.success failure:requst.failure];
             break;
         }
     }

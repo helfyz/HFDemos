@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>HFLibs.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Masonry.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-HFMaterial.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>UITableView+FDTemplateLayoutCell.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>195F88DD548AEF46A5CBFD3C71F6E178</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>223D770610F4D2489CDBB40731DB8F2F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7B110BA6E84269E7C3AF71BEF0CAF015</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D55AB1AB44743B249967DF5ECE0A69B2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

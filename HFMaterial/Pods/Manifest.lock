@@ -1,0 +1,34 @@
+PODS:
+  - HFLibs (1.0.0):
+    - HFLibs/HFCategory (= 1.0.0)
+    - HFLibs/HFKit (= 1.0.0)
+    - Masonry (~> 0.6.1)
+    - UITableView+FDTemplateLayoutCell (~> 1.3)
+  - HFLibs/HFCategory (1.0.0):
+    - Masonry (~> 0.6.1)
+    - UITableView+FDTemplateLayoutCell (~> 1.3)
+  - HFLibs/HFKit (1.0.0):
+    - Masonry (~> 0.6.1)
+    - UITableView+FDTemplateLayoutCell (~> 1.3)
+  - Masonry (0.6.4)
+  - UITableView+FDTemplateLayoutCell (1.4)
+
+DEPENDENCIES:
+  - HFLibs (from `https://github.com/helfyz/HFLibs.git`, commit `eef82cc`)
+
+EXTERNAL SOURCES:
+  HFLibs:
+    :commit: eef82cc
+    :git: https://github.com/helfyz/HFLibs.git
+
+CHECKOUT OPTIONS:
+  HFLibs:
+    :commit: eef82cc
+    :git: https://github.com/helfyz/HFLibs.git
+
+SPEC CHECKSUMS:
+  HFLibs: 631dfcfba2b958b00b7f5b161965122f08b151e2
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  UITableView+FDTemplateLayoutCell: 234e1582bcc4e18461af91155123bb96538ed030
+
+COCOAPODS: 0.39.0

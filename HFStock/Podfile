@@ -7,7 +7,7 @@ target 'HFStock' do
  pod 'HFLibs’, :git => 'https://github.com/helfyz/HFLibs.git', :commit => '55fe26a'
  pod 'AFNetworking'
  pod 'YYKit'
- pod 'YYModel'
+ pod 'FMDB'
 
 end
 

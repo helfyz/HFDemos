@@ -20,8 +20,12 @@
 		A81C05351D531DDE00B9E330 /* HFKLineDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A81C05341D531DDE00B9E330 /* HFKLineDataModel.m */; };
 		A81C05381D5321B600B9E330 /* HFAverageDrawModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A81C05371D5321B600B9E330 /* HFAverageDrawModel.m */; };
 		A81C053C1D53230200B9E330 /* HFStockDataManger.m in Sources */ = {isa = PBXBuildFile; fileRef = A81C053B1D53230200B9E330 /* HFStockDataManger.m */; };
-		A81C053F1D53246B00B9E330 /* HFRequstCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = A81C053E1D53246B00B9E330 /* HFRequstCenter.m */; };
 		A81C05421D5324DE00B9E330 /* HFAPIRequst.m in Sources */ = {isa = PBXBuildFile; fileRef = A81C05411D5324DE00B9E330 /* HFAPIRequst.m */; };
+		A81C05451D5433B700B9E330 /* HFTencentApiCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = A81C05441D5433B700B9E330 /* HFTencentApiCenter.m */; };
+		A82DF8B01D53769F00702FC1 /* HFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A82DF8AF1D53769F00702FC1 /* HFNetworking.m */; };
+		A82DF8B41D53772200702FC1 /* HFApiRequst.m in Sources */ = {isa = PBXBuildFile; fileRef = A82DF8B31D53772200702FC1 /* HFApiRequst.m */; };
+		A82DF8B71D5377B500702FC1 /* HFRequstConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = A82DF8B61D5377B500702FC1 /* HFRequstConfig.m */; };
+		A82DF8BA1D53870A00702FC1 /* HFRequstConfigManger.m in Sources */ = {isa = PBXBuildFile; fileRef = A82DF8B91D53870A00702FC1 /* HFRequstConfigManger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,10 +54,18 @@
 		A81C05371D5321B600B9E330 /* HFAverageDrawModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFAverageDrawModel.m; sourceTree = "<group>"; };
 		A81C053A1D53230200B9E330 /* HFStockDataManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFStockDataManger.h; sourceTree = "<group>"; };
 		A81C053B1D53230200B9E330 /* HFStockDataManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFStockDataManger.m; sourceTree = "<group>"; };
-		A81C053D1D53246B00B9E330 /* HFRequstCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFRequstCenter.h; sourceTree = "<group>"; };
-		A81C053E1D53246B00B9E330 /* HFRequstCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFRequstCenter.m; sourceTree = "<group>"; };
 		A81C05401D5324DE00B9E330 /* HFAPIRequst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFAPIRequst.h; sourceTree = "<group>"; };
 		A81C05411D5324DE00B9E330 /* HFAPIRequst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFAPIRequst.m; sourceTree = "<group>"; };
+		A81C05431D5433B700B9E330 /* HFTencentApiCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFTencentApiCenter.h; sourceTree = "<group>"; };
+		A81C05441D5433B700B9E330 /* HFTencentApiCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFTencentApiCenter.m; sourceTree = "<group>"; };
+		A82DF8AE1D53769F00702FC1 /* HFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFNetworking.h; sourceTree = "<group>"; };
+		A82DF8AF1D53769F00702FC1 /* HFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFNetworking.m; sourceTree = "<group>"; };
+		A82DF8B21D53772200702FC1 /* HFApiRequst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFApiRequst.h; sourceTree = "<group>"; };
+		A82DF8B31D53772200702FC1 /* HFApiRequst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFApiRequst.m; sourceTree = "<group>"; };
+		A82DF8B51D5377B500702FC1 /* HFRequstConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFRequstConfig.h; sourceTree = "<group>"; };
+		A82DF8B61D5377B500702FC1 /* HFRequstConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFRequstConfig.m; sourceTree = "<group>"; };
+		A82DF8B81D53870A00702FC1 /* HFRequstConfigManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFRequstConfigManger.h; sourceTree = "<group>"; };
+		A82DF8B91D53870A00702FC1 /* HFRequstConfigManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFRequstConfigManger.m; sourceTree = "<group>"; };
 		D7903910D1463A4AD0C4A2CB /* libPods-HFStock.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HFStock.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -153,10 +165,11 @@
 			children = (
 				A81C05301D530FE500B9E330 /* HFConfigCenter.h */,
 				A81C05311D530FE500B9E330 /* HFConfigCenter.m */,
-				A81C053D1D53246B00B9E330 /* HFRequstCenter.h */,
-				A81C053E1D53246B00B9E330 /* HFRequstCenter.m */,
+				A82DF8B11D5376A900702FC1 /* HFNetworking */,
 				A81C053A1D53230200B9E330 /* HFStockDataManger.h */,
 				A81C053B1D53230200B9E330 /* HFStockDataManger.m */,
+				A81C05431D5433B700B9E330 /* HFTencentApiCenter.h */,
+				A81C05441D5433B700B9E330 /* HFTencentApiCenter.m */,
 			);
 			path = Centers;
 			sourceTree = "<group>";
@@ -199,6 +212,21 @@
 				A81C05371D5321B600B9E330 /* HFAverageDrawModel.m */,
 			);
 			name = Draw;
+			sourceTree = "<group>";
+		};
+		A82DF8B11D5376A900702FC1 /* HFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				A82DF8AE1D53769F00702FC1 /* HFNetworking.h */,
+				A82DF8AF1D53769F00702FC1 /* HFNetworking.m */,
+				A82DF8B21D53772200702FC1 /* HFApiRequst.h */,
+				A82DF8B31D53772200702FC1 /* HFApiRequst.m */,
+				A82DF8B51D5377B500702FC1 /* HFRequstConfig.h */,
+				A82DF8B61D5377B500702FC1 /* HFRequstConfig.m */,
+				A82DF8B81D53870A00702FC1 /* HFRequstConfigManger.h */,
+				A82DF8B91D53870A00702FC1 /* HFRequstConfigManger.m */,
+			);
+			name = HFNetworking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,16 +350,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A81C053F1D53246B00B9E330 /* HFRequstCenter.m in Sources */,
 				A81C05421D5324DE00B9E330 /* HFAPIRequst.m in Sources */,
 				A81C05321D530FE500B9E330 /* HFConfigCenter.m in Sources */,
+				A82DF8B71D5377B500702FC1 /* HFRequstConfig.m in Sources */,
 				A81C05351D531DDE00B9E330 /* HFKLineDataModel.m in Sources */,
 				A81C052B1D52F19D00B9E330 /* HFStockChartView.m in Sources */,
 				A81C05131D52DF6400B9E330 /* ViewController.m in Sources */,
 				A81C053C1D53230200B9E330 /* HFStockDataManger.m in Sources */,
+				A82DF8B41D53772200702FC1 /* HFApiRequst.m in Sources */,
+				A82DF8B01D53769F00702FC1 /* HFNetworking.m in Sources */,
 				A81C05101D52DF6400B9E330 /* AppDelegate.m in Sources */,
 				A81C052E1D530C7300B9E330 /* HFKLineDrwaModel.m in Sources */,
+				A82DF8BA1D53870A00702FC1 /* HFRequstConfigManger.m in Sources */,
 				A81C050D1D52DF6400B9E330 /* main.m in Sources */,
+				A81C05451D5433B700B9E330 /* HFTencentApiCenter.m in Sources */,
 				A81C05381D5321B600B9E330 /* HFAverageDrawModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
